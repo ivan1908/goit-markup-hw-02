@@ -1,4 +1,52 @@
+:root {
+    --title-text-color: #212121;
+    --body-color: #757575;
+    --nav-link-color: #2196F3;
+}
+
+.list {
+    list-style-type: none;
+}   
+.logo-blue {
+    color: #2196F3;
+}
+.logo{
+    color: #000000;
+}
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: #2196F3;
+}
+.info-nav .info-link{
+    color: #757575;
+}
+.info-nav .info-link:hover,
+.info-nav .info-link:focus {
+    color: #2196F3;
+}
+.site-nav .link.current {
+    color: #2196F3;
+}
+.hero-title {
+    color: #FFFFFF;
+}
+.features-title, 
+.work-title, 
+.team-title {
+    color: #212121;
+}
+.title {
+    color: #212121;
+}
+.button {
+    color: #FFFFFF;
+    background-color: #2196F3;    
+}
+
 body {
     background-color: #FFFFFF;
-    color: #212121;
+    color: #757575;
 }
