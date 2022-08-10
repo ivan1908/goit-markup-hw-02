@@ -3,7 +3,12 @@
     --body-color: #757575;
     --nav-link-color: #2196F3;
 }
-
+.header {
+    background-color: #FFFFFF;
+}
+.hero {
+    background-color: #2F303A;
+}
 .list {
     list-style-type: none;
 }   
@@ -33,6 +38,9 @@
 .hero-title {
     color: #FFFFFF;
 }
+.team {
+    background-color: #F5F4FA;
+}
 .features-title, 
 .work-title, 
 .team-title {
@@ -49,4 +57,13 @@
 body {
     background-color: #FFFFFF;
     color: #757575;
+}
+.footer {
+    background-color: #2F303A;
+}
+.address-link {
+    color: #FFFFFF;
+}
+.footer-info {
+    color: rgba(255, 255, 255, 0.6);
 }
