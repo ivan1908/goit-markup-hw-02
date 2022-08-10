@@ -1,7 +1,7 @@
 :root {
     --title-text-color: #212121;
     --body-color: #757575;
-    --nav-link-color: #2196F3;
+    --link-color: #2196F3;
 }
 .header {
     background-color: #FFFFFF;
@@ -18,21 +18,22 @@
 .logo{
     color: #000000;
 }
-.site-nav .link {
+.header-site-nav .header-link {
     color: #212121;
 }
-.site-nav .link:hover,
-.site-nav .link:focus {
+.header-site-nav .header-link:hover,
+.header-site-nav .header-link:focus {
     color: #2196F3;
 }
-.info-nav .info-link{
+.header-info-nav .header-info-link{
     color: #757575;
 }
-.info-nav .info-link:hover,
-.info-nav .info-link:focus {
+.header-info-nav .header-info-link:hover,
+.header-info-nav .header-info-link:focus {
     color: #2196F3;
 }
-.site-nav .link.current {
+
+.header-site-nav .header-link.current {
     color: #2196F3;
 }
 .hero-title {
@@ -66,4 +67,8 @@ body {
 }
 .footer-info {
     color: rgba(255, 255, 255, 0.6);
+}
+.footer .address a:hover,
+.footer .address a:focus {
+    color: #2196F3;
 }
